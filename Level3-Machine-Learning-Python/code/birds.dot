@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="X[0] <= 30.105\ngini = 0.793\nsamples = 289\nvalue = [26, 40, 84, 72, 17, 50]\nclass = W", fillcolor="#39e5810e"] ;
+1 [label="X[1] <= 2.54\ngini = 0.347\nsamples = 95\nvalue = [8, 0, 76, 4, 1, 6]\nclass = W", fillcolor="#39e581c7"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="X[8] <= 13.3\ngini = 0.266\nsamples = 88\nvalue = [2, 0, 75, 4, 1, 6]\nclass = W", fillcolor="#39e581d7"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 2\nvalue = [2, 0, 0, 0, 0, 0]\nclass = SO", fillcolor="#e58139ff"] ;
+2 -> 3 ;
+4 [label="gini = 0.232\nsamples = 86\nvalue = [0, 0, 75, 4, 1, 6]\nclass = W", fillcolor="#39e581dc"] ;
+2 -> 4 ;
+5 [label="X[1] <= 2.825\ngini = 0.245\nsamples = 7\nvalue = [6, 0, 1, 0, 0, 0]\nclass = SO", fillcolor="#e58139d4"] ;
+1 -> 5 ;
+6 [label="gini = 0.0\nsamples = 6\nvalue = [6, 0, 0, 0, 0, 0]\nclass = SO", fillcolor="#e58139ff"] ;
+5 -> 6 ;
+7 [label="gini = 0.0\nsamples = 1\nvalue = [0, 0, 1, 0, 0, 0]\nclass = W", fillcolor="#39e581ff"] ;
+5 -> 7 ;
+8 [label="X[0] <= 62.645\ngini = 0.766\nsamples = 194\nvalue = [18, 40, 8, 68, 16, 44]\nclass = R", fillcolor="#399de529"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="X[9] <= 2.21\ngini = 0.817\nsamples = 76\nvalue = [18, 14, 8, 7, 13, 16]\nclass = SO", fillcolor="#e5813908"] ;
+8 -> 9 ;
+10 [label="gini = 0.685\nsamples = 33\nvalue = [11, 0, 4, 3, 1, 14]\nclass = T", fillcolor="#e5399d23"] ;
+9 -> 10 ;
+11 [label="gini = 0.77\nsamples = 43\nvalue = [7, 14, 4, 4, 12, 2]\nclass = SW", fillcolor="#9de53910"] ;
+9 -> 11 ;
+12 [label="X[4] <= 62.995\ngini = 0.627\nsamples = 118\nvalue = [0, 26, 0, 61, 3, 28]\nclass = R", fillcolor="#399de55d"] ;
+8 -> 12 ;
+13 [label="gini = 0.479\nsamples = 86\nvalue = [0, 5, 0, 57, 0, 24]\nclass = R", fillcolor="#399de588"] ;
+12 -> 13 ;
+14 [label="gini = 0.529\nsamples = 32\nvalue = [0, 21, 0, 4, 3, 4]\nclass = SW", fillcolor="#9de5399b"] ;
+12 -> 14 ;
+}
