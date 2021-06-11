@@ -1,5 +1,6 @@
-# APSSDC_Multi-Skill-Training-Program_VIEW
-This repo contains the files created during the Multi Skill Training program conducted @ Vignan's Institute of Engineering for Women. This training program divided into 3 parts 
+# APSSDC Multi-Skill Training Program
+This repo contains the files created during the Multi Skill Training program. This training program divided into 3 parts:
+
 1. Level-1 Productivity Enhancement tools
 2. Level-2 Problem Solving using Python
 3. Level-3 Machine Learning with Python
